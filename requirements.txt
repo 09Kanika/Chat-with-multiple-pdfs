@@ -3,5 +3,5 @@ google-generativeai
 python-dotenv
 langchain
 PyPDF2
-lancedb
+pymilvus
 langchain_google_genai
