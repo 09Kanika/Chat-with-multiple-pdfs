@@ -38,7 +38,7 @@ def get_conversational_chain():
 
     prompt_template = """
     Answer the question as detailed as possible from the provided context, make sure to provide all the details, if the answer is not in
-    provided context just say, "answer is not available in the context", don't provide the wrong answer\n\n
+    provided context just say, 'answer is not available in the context', don't provide the wrong answer\n\n
     Context:\n {context}?\n
     Question: \n{question}\n
 
@@ -73,9 +73,9 @@ def user_input(user_question):
 
 def main():
     st.set_page_config("Chat PDF")
-    st.header("Chat with PDF using Gemini💁")
+    st.header("Chat with PDF using Gemini Pro Vision💁")
 
-    user_question = st.text_input("Ask a Question from the  uploaded PDF Files")
+    user_question = st.text_input("Ask a Question from the  uploaded PDF File(s)")
 
     if user_question:
         user_input(user_question)
