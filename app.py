@@ -72,8 +72,8 @@ def user_input(user_question):
 
 
 def main():
-    st.set_page_config("Chat PDF")
-    st.header("Chat with PDF using Gemini Pro Vision💁")
+    st.set_page_config("Chat with PDFs")
+    st.header("Chat with PDFs using Gemini Pro Vision💁")
 
     user_question = st.text_input("Ask a Question from the  uploaded PDF File(s)")
 
